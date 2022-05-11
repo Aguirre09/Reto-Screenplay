@@ -6,13 +6,6 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 public class DispatchPage  {
-
-    public static final Target EMAIL_PURCHASED = Target.the("User's email")
-            .locatedBy("//input[@name='emailAddress']");
-
-    public static final Target EMAIL_PURCHASED_BUTTON_CONTINUE = Target.the("To continue dispatch")
-            .located(By.xpath("//*[@class=\"fbra_button fbra_test_button fbra_emailInputForm__submitButton fbra_test_emailInputForm__submitButton\"]"));
-
     public static final Target REGION = Target.the("Region place")
             .located(By.xpath("//*[@id=\"region\"]"));
 

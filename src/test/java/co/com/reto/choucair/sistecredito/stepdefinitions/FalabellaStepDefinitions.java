@@ -47,8 +47,6 @@ public class FalabellaStepDefinitions {
 
     @Then("User can go to payment process")
     public void userCanGoToPaymentProcess() {
-        System.out.println("C");
-
         theActorInTheSpotlight().should(GivenWhenThen.seeThat(Response.isShown()));
     }
 }

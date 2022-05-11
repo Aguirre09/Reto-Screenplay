@@ -1,4 +1,4 @@
-##Automation Challenge Screenplay: applicants to QA
+## Automation Challenge Screenplay: applicants to QA
 
 #### Sistecredito's challenge
 

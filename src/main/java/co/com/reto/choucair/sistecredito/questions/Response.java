@@ -9,7 +9,6 @@ import net.serenitybdd.screenplay.annotations.Subject;
 @Subject("Message about payment process ")
 public class Response implements Question<Boolean> {
     public Boolean answeredBy(Actor actor){
-        System.out.println("el dato es : "+ PaymentPage.PAYMENT_HEADING.resolveFor(actor).isVisible() );
         return PaymentPage.PAYMENT_HEADING.resolveFor(actor).isVisible();
     }
 
